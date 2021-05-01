@@ -2,94 +2,97 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-.header {
+  }
+  
+  .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #050320;
-   
-}
- .a {
-        font-size: 20px;
-        color: rgb(72, 71, 87);
-        font-style: oblique;
-        text-align: center;
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #067179, 0 0 20px #067179, 0 0 25px  #067179, 0 0 30px  #067179, 0 0 35px  #067179;
-}
-
-.header h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background-color: hsla(hue, saturation, lightness, alpha);
+    background-color: #04180d;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23003fa5' fill-opacity='0.53' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  .a {
+    font-size: 20px;
+    color: rgb(72, 71, 87);
+    font-style: oblique;
+    text-align: center;
+    padding: 2%;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+      0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  
+  .header h1 {
+    color: rgb(72, 71, 87);
     display: inline-block;
-    font-size: 48px;
-}
-.header h1 {
-    color:rgb(72, 71, 87);
     font-style: oblique;
     font-size: 40px;
     color: #fff;
     text-align: center;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #067179, 0 0 20px  #067179, 0 0 25px  #067179, 0 0 30px  #067179, 0 0 35px  #067179;
-}
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+      0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  
+  .nav {
+    height: 50px;
+    width: 400px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
-}
-.nav{
-    height: 150px;
-    background-color: hsla(hue, saturation, lightness, alpha);
-    background-color: #04180d;
-    background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23003fa5' fill-opacity='0.53' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  .section-container {
+    border-color: slategray;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    font-size: 100%;
+    font-style: oblique;
+  }
+  
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 48%;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+    display: inline;
+    margin: 8px;
     
-}
-
-.About {
-    border-right: groove;
-    border-color: slategray;
-    width: 150px;
+  }
+  
+  .first-item {
+    width: 96%;
+    height: 25%;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+    display: inline;
+  }
+  
+  .item:hover, .first-item:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  
+  .section-label {
+    width: 10%;
     height: 300px;
-    padding-top: 60px;
-    padding-left: 20px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
     position: relative;
-    font-size: 100%;
-    font-style: oblique;
-}
-.W {
-    border-right: groove;
-    border-color: slategray;
-    width: 150px;
-    height: 1000px;
-    padding-top: 100px;
-    padding-left: 20px;
+    padding: 10px;
+    text-align: right;
+    border-right: 3px solid black;
+    display: inline-flex;
+  }
+  
+  .section {
+    width: 85%;
+    left: 2%;
     position: relative;
-    top: 100px;
-    font-size: 100%;
-    font-style: oblique;
-    
-}
-.Contact {
-    border-right: groove;
-    border-color: slategray;
-    width: 150px;
-    height: 300px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    position: relative;
-    top: 200px;
-    font-size: 100%;
-    font-style: oblique;
-   
-}
-.Aboutme {
-    position: absolute;
-    padding-right: 50px;
-    left: 200px;
-    top: 300px;
-}
+    display: inline-flex;
+  }
+ 
