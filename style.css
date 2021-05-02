@@ -2,29 +2,28 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
 }
-body{
+body {
   color: #ebf8e1;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image:url(http://bit.ly/2gPLxZ4);
+  background-image: url(http://bit.ly/2gPLxZ4);
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica;
   letter-spacing: 0.02em;
-   font-weight: 400;
-  -webkit-font-smoothing: antialiased; 
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
-  0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
- }
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    background: linear-gradient(0.33turn, #3f87a6, #ebf8e1, #f69d3c, #561423);
+  background: linear-gradient(0.33turn, #3f87a6, #ebf8e1, #f69d3c, #561423);
 }
 
 .a {
@@ -71,7 +70,6 @@ body{
   margin: 8px;
 }
 
-
 .item {
   content: "My Work";
   width: 48%;
@@ -82,7 +80,6 @@ body{
   border-style: ridge;
   border-color: blueviolet;
   border-radius: 5%;
-  
 }
 
 .first-item {
@@ -94,13 +91,12 @@ body{
   border-style: ridge;
   border-color: blueviolet;
   border-radius: 5%;
-
 }
 
-
-.item:hover, .first-item:hover {
+.item:hover,
+.first-item:hover {
   opacity: 0.5;
-  transition: .5s ease;
+  transition: 0.5s ease;
   cursor: pointer;
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
@@ -131,7 +127,6 @@ body{
   padding: 2%;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
     0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-
 }
 .R {
   font-size: 20px;
@@ -141,14 +136,14 @@ body{
   padding: 2%;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
     0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-    padding-left: 20%;
-    
+  padding-left: 20%;
 }
-@media all and (max-width:3000px) {
-    .section, .section-container,.section-label,.item,.first-item.container {
-        font-size: 20px;
-        
-    }
-
-    
+@media all and (max-width: 3000px) {
+  .section,
+  .section-container,
+  .section-label,
+  .item,
+  .first-item.container {
+    font-size: 20px;
+  }
 }
