@@ -73,6 +73,7 @@ body{
 
 
 .item {
+  content: "My Work";
   width: 48%;
   height: 10%;
   margin-bottom: 1%; /* (100-32*3)/2 */
@@ -96,7 +97,10 @@ body{
 
 }
 
+
 .item:hover, .first-item:hover {
+  content: "My work";
+  content-visibility: ;
   opacity: 0.5;
   transition: .5s ease;
   cursor: pointer;
