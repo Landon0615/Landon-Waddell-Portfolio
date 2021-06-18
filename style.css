@@ -70,7 +70,7 @@ body {
   margin: 8px;
 }
 
-.item {
+.item1,.item2,.item3,.item4 {
   content: "My Work";
   width: 48%;
   height: 10%;
@@ -80,6 +80,7 @@ body {
   border-style: ridge;
   border-color: blueviolet;
   border-radius: 5%;
+  
 }
 
 .first-item {
@@ -94,7 +95,7 @@ body {
 }
 
 .item:hover,
-.first-item:hover {
+.first-item:hover ,.item1:hover ,.item2:hover ,.item3:hover ,.item4:hover {
   opacity: 0.5;
   transition: 0.5s ease;
   cursor: pointer;
