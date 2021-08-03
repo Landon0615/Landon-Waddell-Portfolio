@@ -10,7 +10,7 @@ At the top right of the portofolio page the user is able to navigate by clicking
 
 <img width="1776" alt="Screen Shot 2021-06-18 at 5 31 07 PM" src="https://user-images.githubusercontent.com/80728975/122623909-2ec20280-d05b-11eb-97ba-6368c7b60c11.png">
 
-[!Landon Waddell Portfolio]("file:///Users/landonwaddell/Desktop/Bootcamp/Homework2/Landon-Waddell-Portfoli/Landon-Waddell-Portfolio/index.html#Resume")
+[Landon-Waddell-Portfolio](" https://landon0615.github.io/Landon-Waddell-Portfolio/")
 
 ## License & copyright
 *2021 Landon Waddell Portofolio Web page.
