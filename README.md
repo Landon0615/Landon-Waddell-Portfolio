@@ -18,6 +18,7 @@ MIT
 /Users/landonwaddell/Desktop/Bootcamp/Homework2/Landon-Waddell-Portfoli/Landon-Waddell-Portfolio/images/Pokemon.png
 /Users/landonwaddell/Desktop/Bootcamp/Homework2/Landon-Waddell-Portfoli/Landon-Waddell-Portfolio/images/Weather.png
 ### Link:
+<img width="1752" alt="Screen Shot 2021-08-22 at 4 55 44 PM" src="https://user-images.githubusercontent.com/80728975/130372773-c4e264bf-312b-44d2-a9be-8479f5ef6de3.png">
 [Portfolio](" https://landon0615.github.io/Landon-Waddell-Portfolio/")
 ### Questions:
 If you have any questions contact me on [GitHub](https://github.com/Landon0615) or contact 
